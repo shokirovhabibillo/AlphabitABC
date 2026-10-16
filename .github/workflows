@@ -19,7 +19,7 @@ jobs:
         with:
           channel: stable
 
-      - name: Android papkasini yaratish (kodni saqlab qolgan holda)
+      - name: Android papkasini yaratish
         run: |
           cp lib/main.dart /tmp/main.dart
           cp pubspec.yaml /tmp/pubspec.yaml
